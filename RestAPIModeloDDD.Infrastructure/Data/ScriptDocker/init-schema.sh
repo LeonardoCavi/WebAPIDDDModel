@@ -1,0 +1,1 @@
+/opt/mssql-tools/bin/sqlcmd -S host.docker.internal,1433 -U sa -P 123Mudar -d master -i /tmp/schema.sql
